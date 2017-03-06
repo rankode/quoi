@@ -104,33 +104,3 @@ h2 {
   left: 25px;
   top: -10px;
 }
-
-#rainbow {
-background-color: blue;  
-  float:left;
-  width: 70px;
-  height:70px;
-  border: 1px solid white;
-  -webkit-animation-name: example; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes example {
-    0%   {background-color: red; }
-    25%  {background-color: yellow; }
-    50%  {background-color: blue; }
-    75%  {background-color: green; }
-    100% {background-color: red; }
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    0%   {background-color: red; }
-    25%  {background-color: yellow; }
-    50%  {background-color: blue; }
-    75%  {background-color: green; }
-    100% {background-color: red; }
-}
