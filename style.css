@@ -16,9 +16,8 @@ h2 {
   font-size: 2em;
 }
 
-.bg{
+.bg {
 	  overflow:hidden;
-		background:#222;
 		position: absolute;
 		top:0;
 		left:0;
